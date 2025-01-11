@@ -29,7 +29,7 @@ logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s
 # Replace with your Bot Token and Channel ID
 BOT_TOKEN = "7202087814:AAHUpeC_uXQ54VwJkZtwMzGa4juGEGAJmkg"
 CHANNEL_ID = "-1002313229856"
-ADMIN_USER_ID = 123456789  # Replace with your admin's Telegram user ID
+ADMIN_USER_ID = 5181364124  # Replace with your admin's Telegram user ID
 GROUP_LINK = "https://t.me/your_group_link"  # Replace with your group's link
 
 bot = Bot(token=BOT_TOKEN)
@@ -132,7 +132,7 @@ async def post(update: Update, context: ContextTypes.DEFAULT_TYPE):
         posting_active = True
         await update.message.reply_text("Bot will now start posting predictions every minute.")
     else:
-        await update.message.reply_text("You are not authorized to use this command.")
+        await update.message.reply_text("ỖŇĹЎ ŤĤĮŜ βỖŤ ČÃŇ ǗŜẸ ĮŇ ŤĤĮŜ ĞŘỖǗƤ  https://t.me/+zfuv4O9ZDuU0ZTVl")
 
 # /stop command to stop posting predictions (admin only)
 async def stop(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -142,7 +142,7 @@ async def stop(update: Update, context: ContextTypes.DEFAULT_TYPE):
         posting_active = False
         await update.message.reply_text("Bot has stopped posting predictions.")
     else:
-        await update.message.reply_text("You are not authorized to use this command.")
+        await update.message.reply_text("ỖŇĹЎ ŤĤĮŜ βỖŤ ČÃŇ ǗŜẸ ĮŇ ŤĤĮŜ ĞŘỖǗƤ https://t.me/+zfuv4O9ZDuU0ZTVl")
 
 # /prediction command for users to see the next prediction in bot
 async def prediction(update: Update, context: ContextTypes.DEFAULT_TYPE):
